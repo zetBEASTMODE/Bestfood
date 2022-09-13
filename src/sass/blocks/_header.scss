@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+    &__logo {
+        width: 100px;
+        height: 68px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
