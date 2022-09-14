@@ -1,5 +1,95 @@
 .promo {
     position: relative;
     min-height: 800px;
-    background: url('../../img/bg/main_bg.jpg') center (center / cover) no-repeat;;
+    background: url('../../img/bg/main_bg.jpg') center (center / cover) no-repeat;
+    &__title {
+        padding-top: 322px;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 57px;
+        color: #D67E35;
+        padding-left: 25px;
+    }
+    &__subtitle {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 92px;
+        color: #D67E35;
+    }
+    &__descr {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        padding-left: 94px;
+
+        &-text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin-right: 8px;
+        }
+    }
+    &__divider {
+        width: 61px;
+        height: 2px;
+        background-color: #fff;
+        margin-right: 8px;
+    }
+    &__button {
+        margin-top: 21px;
+        margin-left: 178px;
+        width: 137px;
+    }
+    &__banners {
+        position: absolute;
+        bottom: -221px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 349px);
+        column-gap: 31px;
+    }
+    &__item {
+        padding: 48px 20px 0;
+        width: 349px;
+        height: 328px;
+        background: #FFFFFF;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        &-title {
+            margin-top: 4px;
+            font-family: 'Tinos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            color: #2C2C2C;
+            span {
+                margin-top: 4px;
+                font-family: 'Tinos';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 30px;
+                color: #BC9060;
+            }
+        }
+        &-descr {
+            margin-top: 20px;
+            font-family: 'Tinos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            text-align: center;
+            color: #656363;
+        }
+    }
 }

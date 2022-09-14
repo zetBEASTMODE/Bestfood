@@ -8,6 +8,7 @@
     &__logo {
         width: 100px;
         height: 68px;
+        cursor: pointer;
     }
     &__wrapper {
         display: flex;
@@ -26,6 +27,10 @@
             font-size: 14px; 
             line-height: 19px;
             color: #fff;
+            &:hover {
+                text-decoration: solid;
+                color: #D67E35;
+            }
         }
         img {
             width: 13px;
@@ -49,6 +54,9 @@
             line-height: 19px;
             color: #fff;
             padding-left: 8px;
+            &:hover {
+                color: #D67E35;
+            }
         }
         &-text {
             color: #fff;
