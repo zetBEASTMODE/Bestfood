@@ -1,7 +1,10 @@
 .header {
+    position: absolute;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    z-index: 10;
+    width: 1110px;
+    top: 50px;
     &__logo {
         width: 100px;
         height: 68px;
@@ -10,5 +13,48 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    &__links {
+        width: 360px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &-text {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px; 
+            line-height: 19px;
+            color: #fff;
+        }
+        img {
+            width: 13px;
+            height: 13px;
+            cursor: pointer;
+        }
+        
+    }
+    &__divider {
+        width: 1px;
+        height: 51px;
+        background-color: #fff;
+    }
+    &__phone {
+        margin-left: 20px;
+        a {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px; 
+            line-height: 19px;
+            color: #fff;
+            padding-left: 8px;
+        }
+        &-text {
+            color: #fff;
+        }
+    }
+    &__button {
+        margin-left: 45px;
     }
 }
