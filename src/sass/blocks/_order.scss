@@ -1,0 +1,38 @@
+.order {
+    height: 360px;
+    padding: 80px 186px 104px 165px;
+    position: relative;
+    margin-top: 120px;
+    background: 
+		linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+		url('../../img/bg/second_bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+    }
+    &__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 60px;
+        color: #D67E34;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+    }
+    &__button {
+        margin-top: 40px;
+    }
+}
