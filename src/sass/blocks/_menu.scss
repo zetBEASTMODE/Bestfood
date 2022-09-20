@@ -1,4 +1,5 @@
 .menu {
+    position: relative;
     margin-top: 150px;
     min-height: 1036px;
     background: url('../../img/bg/menu_bg.jpg') center (center / cover) no-repeat;
@@ -9,14 +10,31 @@
         margin-top: 138px;
     }
     &__title {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 90px;
+        width: 100%;
+        height: 1036px;
         font-family: 'Tinos';
         font-style: normal;
         font-weight: 400;
         font-size: 54px;
         line-height: 62px;
-        color: #FFFFFF;
+        color: #fff;
         text-align: center;
-        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.75);
+        span {
+            font-family: 'Tinos';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 54px;
+            line-height: 62px;
+            color: $main_color;
+        }
+
     }
     &__item {
         position: relative;
