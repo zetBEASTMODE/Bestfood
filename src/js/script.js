@@ -1,4 +1,4 @@
-var slider = tns({
+/* var slider = tns({
     container: '.review__inner',
     items: 3,
     slideBy: 'page',
@@ -14,4 +14,4 @@ var slider = tns({
 
   document.querySelector('.next').addEventListener('click', function () {
     slider.goTo('next');
-  });
+  }); */
